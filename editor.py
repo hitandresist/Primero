@@ -15,7 +15,7 @@ ruta = "" # La utilizaremos para almacenar la ruta de un fichero
 def nuevo():
 	global ruta # Hay que definirla como una variable global, ya que las funciones tienen propio
 				# namespace
-	guardar()
+	
 	mensaje.set("Nuevo fichero")
 	ruta = ""
 	texto.delete(1.0, "end")
@@ -25,7 +25,7 @@ def nuevo():
 
 def abrir():
 	global ruta
-	guardar()
+	
 	mensaje.set("Abrir fichero")
 	ruta = FileDialog.askopenfilename(initialdir=".",
 		   filetype=(("Ficheros de texto", "*.txt"),),
