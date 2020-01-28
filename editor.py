@@ -5,6 +5,9 @@ Created on Sun Jan 26 16:36:04 2020
 @author: aprietoabollado
 """
 
+# Estoy incluyendo lineas para ver como funcionan varios adds en el STAGE
+# Ese cambio ya lo había subido, voy a subir al STAGE otro, a ver como se ve el staging area.
+
 from tkinter import *
 from tkinter import filedialog as FileDialog
 
